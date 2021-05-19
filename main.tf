@@ -9,7 +9,7 @@ resource "infoblox_a_record" "demo_record"{
   ip_addr="10.0.0.1" //use the ip address used in IP allocation
   dns_view="default"
   zone="aa.com"
-tenant_id="test"
+  tenant_id="test"
 }
 
 variable "super_secret" {}
