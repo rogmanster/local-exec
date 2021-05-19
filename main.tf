@@ -1,3 +1,12 @@
+terraform {
+  required_providers {
+    custom = {
+      source = "usr/local/bin"
+      version = "1.0.0"
+    }
+  }
+}
+
 provider "infoblox"{
   version="~> 1.0"
 }
