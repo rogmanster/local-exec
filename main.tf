@@ -2,6 +2,7 @@ provider "infoblox"{
   version="~> 1.0"
 }
 
+/*
 resource "infoblox_a_record" "demo_record"{
   network_view_name="demo1"
   vm_name="test"
@@ -10,7 +11,7 @@ resource "infoblox_a_record" "demo_record"{
   dns_view="default"
   zone="aa.com"
   tenant_id="test"
-}
+}*/
 
 variable "super_secret" {}
 
