@@ -1,17 +1,8 @@
-provider_installation {
-  dev_overrides {
-    "terraform-providers/infoblox" =
-    "/usr/local/bin/"
-  }
-direct {}
-  
-}
-
+/*
 provider "infoblox"{
   version="~> 1.0"
 }
 
-/*
 resource "infoblox_a_record" "demo_record"{
   network_view_name="demo1"
   vm_name="test"
