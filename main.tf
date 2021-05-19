@@ -1,10 +1,10 @@
-terraform {
-  required_providers {
-    custom = {
-      source = "/usr/local/bin"
-      version = "1.0.0"
-    }
+provider_installation {
+  dev_overrides {
+    "terraform-providers/infoblox" =
+    "/usr/local/bin/"
   }
+direct {}
+  
 }
 
 provider "infoblox"{
