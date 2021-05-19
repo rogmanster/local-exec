@@ -1,17 +1,5 @@
-/*
-provider "infoblox"{
-  version="~> 1.0"
-}
 
-resource "infoblox_a_record" "demo_record"{
-  network_view_name="demo1"
-  vm_name="test"
-  cidr="10.0.0.0/24"
-  ip_addr="10.0.0.1" //use the ip address used in IP allocation
-  dns_view="default"
-  zone="aa.com"
-  tenant_id="test"
-}*/
+provider "infoblox" {}
 
 variable "super_secret" {}
 
