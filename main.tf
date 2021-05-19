@@ -1,3 +1,7 @@
+provider "infoblox"{
+  version="~> 1.0"
+}
+
 variable "super_secret" {}
 
 resource "random_pet" "server" {
