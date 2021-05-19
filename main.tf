@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     custom = {
-      source = "usr/local/bin"
+      source = "/usr/local/bin"
       version = "1.0.0"
     }
   }
