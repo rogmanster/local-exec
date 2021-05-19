@@ -12,7 +12,7 @@ resource "null_resource" "delay" {
 
 resource "null_resource" "env" {
   provisioner "local-exec" {
-    command = "env | grep TF_VAR_super_secret"
+    command = "env"
   }
 }
 
