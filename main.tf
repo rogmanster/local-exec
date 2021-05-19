@@ -1,13 +1,3 @@
-#terraform {
-#  required_providers{
-#    null_resource = {
-#      source = "something_else/null_resource"
-#      version = "2.1.2"
-#  }
-#}
-#
-
-
 variable "super_secret" {}
 
 resource "random_pet" "server" {
