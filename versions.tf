@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     infoblox = {
-      source = "usr/local/bin"
+      source = "my-host/my-namespace/infoblox"
     }
     null = {
       source = "hashicorp/null"
