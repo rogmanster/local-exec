@@ -1,5 +1,5 @@
 
-#provider "infoblox" {}
+provider "infoblox" {}
 
 resource "null_resource" "delay" {
   provisioner "local-exec" {
